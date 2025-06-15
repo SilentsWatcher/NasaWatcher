@@ -8,6 +8,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B5C92832-B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{24915458-553A-48A0-B601-0EF0EC24921F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NasaWatcher.Core", "NasaWatcher.Core\NasaWatcher.Core.csproj", "{EE740E24-D3FB-42BE-9F1B-DD2BA3BD9C27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NasaWatcher.Application", "NasaWatcher.Application\NasaWatcher.Application.csproj", "{514B1E97-3A26-4432-B90F-E333B682D293}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,8 +22,18 @@ Global
 		{30AB574F-A488-48FC-8870-B28A9F42BB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30AB574F-A488-48FC-8870-B28A9F42BB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30AB574F-A488-48FC-8870-B28A9F42BB80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE740E24-D3FB-42BE-9F1B-DD2BA3BD9C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE740E24-D3FB-42BE-9F1B-DD2BA3BD9C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE740E24-D3FB-42BE-9F1B-DD2BA3BD9C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE740E24-D3FB-42BE-9F1B-DD2BA3BD9C27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514B1E97-3A26-4432-B90F-E333B682D293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514B1E97-3A26-4432-B90F-E333B682D293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514B1E97-3A26-4432-B90F-E333B682D293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514B1E97-3A26-4432-B90F-E333B682D293}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{30AB574F-A488-48FC-8870-B28A9F42BB80} = {24C9987D-D1B5-4B8E-8E2A-B2C1026D0C5F}
+		{EE740E24-D3FB-42BE-9F1B-DD2BA3BD9C27} = {B5C92832-B2BB-472F-B3BA-4250D6E18216}
+		{514B1E97-3A26-4432-B90F-E333B682D293} = {B5C92832-B2BB-472F-B3BA-4250D6E18216}
 	EndGlobalSection
 EndGlobal
